@@ -1,22 +1,19 @@
-<div class="container1">
-    <h1 *ngIf="!isLoaded" [@fadeInOut] >Hi !</h1>
-    <h2 *ngIf="!isLoaded" [@fadeInOut]>Welcome to my portfolio</h2>
-<div *ngIf="isLoaded" [@fadeInOut] class="container" style="    margin-top: 10vh;">
+
+<div  class="container" style="    margin-top: 10vh;">
     <div class="row">
       <!-- Photo section (on the left for larger screens) -->
       <div class="col-md-6">
-        <img src="assets\1703581260293-removebg-previaaew.png" class="img-fluid" alt="Photo">
+        <img src="assets\1703581260293-removebg-preview.png" class="img-fluid" alt="Photo">
       </div>
       <!-- Text section (on the right for larger screens) -->
       <div class="col-md-6" style="    display: flex;
       flex-direction: column;
       row-gap: 4vh;">
-        <h2 style="margin-top: 10vh;">Tanmay Sharma</h2>
-        <p>As a Software Developer, I use Angular for dynamic front-end development, .NET for solid server-side solutions,
+        <h2 style="margin-top: 10vh;" class="para">Tanmay Sharma</h2>
+        <p class="para">As a Software Developer, I use Angular for dynamic front-end development, .NET for solid server-side solutions,
             and MySQL for effective data administration. I am an expert in optimizing client-side experience and ensuring
             smooth deployments.</p>
        
       </div>
     </div>
   </div>
-</div>

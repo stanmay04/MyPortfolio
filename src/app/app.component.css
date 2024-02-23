@@ -1,0 +1,23 @@
+.container1 {
+    position: fixed;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  h1, h2 {
+    opacity: 0;
+  }
+  
+  .loaded h1, .loaded h2 {
+    opacity: 1;
+  }
+  .para{
+    color: white !important;
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+  }
+ 

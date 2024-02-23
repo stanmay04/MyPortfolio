@@ -1,11 +1,9 @@
-.container1 {
-    text-align: center;
+
+  .para{
+    color: white !important;
+    font-size: larger;
   }
-  
-  h1, h2 {
-    opacity: 0;
-  }
-  
-  .loaded h1, .loaded h2 {
-    opacity: 1;
+  .para:hover{
+    font-weight: 800;
+
   }
