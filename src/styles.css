@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: #415a77;
+    background-image: url('assets\fotis-fotopoulos-DuHKoV44prg-unsplash.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100vw;
   }

@@ -1,0 +1,11 @@
+.container1 {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    opacity: 0;
+  }
+  
+  .loaded h1, .loaded h2 {
+    opacity: 1;
+  }
