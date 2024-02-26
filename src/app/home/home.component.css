@@ -1,9 +1,11 @@
 
   .para{
-    color: white !important;
+    color: #74c69d !important;
     font-size: larger;
   }
-  .para:hover{
-    font-weight: 800;
 
+  .heading{
+    color: white;
+    font-size: larger;
+    margin-top: 10vh;font-size: 8vh;
   }
