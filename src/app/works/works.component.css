@@ -1,0 +1,58 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 76vh;
+    width: 95vw;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    width: 20vw;
+    height: 34vh; /* Adjust as needed */
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.5s ease; /* Smooth transition for blur effect */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    color: white;
+    display: none;
+}
+
+.overlay p {
+    margin: 0;
+}
+
+.image-container:hover img {
+    filter: blur(5px); /* Blur effect on hover */
+}
+
+.image-container:hover .overlay {
+    display: block; /* Show overlay on hover */
+}
+.heading{
+    color: white;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    font-size: 4vw;
+}

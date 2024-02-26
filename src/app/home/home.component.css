@@ -5,7 +5,11 @@
   }
 
   .heading{
-    color: white;
+    color: #fb8500;
     font-size: larger;
     margin-top: 10vh;font-size: 8vh;
+  }
+  .designation{
+    font-size: larger;
+    color: white;
   }

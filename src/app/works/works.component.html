@@ -1,1 +1,59 @@
-<p>works works!</p>
+<h2 class="font heading">Projects</h2>
+
+<div class="projects row">
+    <div class="col-md-2">
+        <div class="card">
+            <div class="image-container" (mouseenter)="hover = true" (mouseleave)="hover = false">
+                <img src="assets\ionela-mat-0K5c8b8oSLs-unsplash.jpg" alt="Image">
+                <div class="overlay" *ngIf="hover">
+                    <a href="https://task-manager-ah.netlify.app/" class="btn btn-primary"
+                        style="background-color: transparent;border: transparent;">
+                        <p>Task Manager</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="image-container" (mouseenter)="hover = true" (mouseleave)="hover = false">
+                <img src="assets\tamanna-rumee-eD1RNYzzUxc-unsplash.jpg" alt="Image">
+                <div class="overlay" *ngIf="hover">
+                    <a href="https://demo-ecom-ah.netlify.app/products" class="btn btn-primary"
+                    style="background-color: transparent;border: transparent;">
+                        <p>E-com Demo</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="image-container" (mouseenter)="hover = true" (mouseleave)="hover = false">
+                <img src="assets\iyus-sugiharto-jpkxJAcp6a4-unsplash.jpg" alt="Image">
+                <div class="overlay" *ngIf="hover">
+                    <a href="https://demo-dash-ah.netlify.app/" class="btn btn-primary"
+                    style="background-color: transparent;border: transparent;">
+                    <p>Dashboard Demo</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="image-container" (mouseenter)="hover = true" (mouseleave)="hover = false">
+                <img src="assets\jason-weingardt-36XU1kKUExI-unsplash.jpg" alt="Image">
+                <div class="overlay" *ngIf="hover">
+                    <a href="https://scorekeeperah.netlify.app/" class="btn btn-primary"
+                    style="background-color: transparent; border: transparent;">
+                    <p>Score Keeper</p>
+                </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Repeat for additional cards -->
+</div>

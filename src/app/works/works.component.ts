@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./works.component.css']
 })
 export class WorksComponent {
-
+  hover: boolean = false;
 }
