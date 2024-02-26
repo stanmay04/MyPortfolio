@@ -12,7 +12,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         animate('5s', style({ opacity: 1 })),
       ]),
       transition(':leave', [
-        animate('5s', style({ opacity: 0 })),
+        animate('3s', style({ opacity: 0 })),
       ]),
     ]),
   ],
@@ -25,6 +25,6 @@ export class AppComponent {
   ngOnInit() {
     setTimeout(() => {
       this.isLoaded = true;
-    }, 5000); // Adjust the delay as needed
+    }, 3000); // Adjust the delay as needed
   }
 }
