@@ -17,3 +17,8 @@ body {
     font-family: "Poppins", sans-serif !important;
     font-style: normal !important;
   }
+  @media (max-width: 768px) {
+    body {
+      min-height: 157vh !important;
+      }
+}

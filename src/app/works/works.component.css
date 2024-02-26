@@ -62,3 +62,9 @@
             text-align: center;
             color: white !important;
 }
+@media (max-width: 812px) {
+.card{
+    width: 80vw;
+    margin-left: 5vw;
+}
+}

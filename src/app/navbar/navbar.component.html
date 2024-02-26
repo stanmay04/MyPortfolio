@@ -1,47 +1,36 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div><a class="navbar-brand mr-auto" href="#">
-        <img src="assets/Screenshot 2024-02-23 123956.png" alt="Logo" style="max-height: 40px;">
-      </a></div>
-    <div class="container">
+  <div class="container">
       <!-- Logo -->
-      
-      
+      <a class="navbar-brand" href="#">
+          <img src="assets/Screenshot 2024-02-23 123956.png" alt="Logo" style="max-height: 40px;">
+      </a>
       <!-- Toggler/collapsible Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-  
       <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" routerLink='/' routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/contacts" routerLinkActive="active">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/works" routerLinkActive="active">Works</a>
-          </li>
-        </ul>
-        <!-- Let's Talk button -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" routerLink='/' routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/contacts" routerLinkActive="active">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/works" routerLinkActive="active">Works</a>
+              </li>
+          </ul>
       </div>
-    </div>
-  
-    
-        <div style="    display: flex;
-        flex-direction: row;
-        column-gap: 1vw;">
-    <button class="btn btn-light my-2 my-sm-0 btn-color" type="submit">Let's Talk</button>
- 
-
-      <a href="assets\Tanmay_software_developer_resume.pdf" download>   <button class="btn btn-light my-2 my-sm-0  btn-download" type="submit">
-      
-        Download CV
-      </button></a>
-
-        </div>
-  </nav>
+      <!-- Let's Talk and Download CV buttons -->
+      <div class="d-flex align-items-center">
+          <button class="btn btn-light my-2 my-sm-0 btn-color mr-2">Let's Talk</button>
+          <a href="assets\Tanmay_software_developer_resume.pdf" download>
+              <button class="btn btn-light my-2 my-sm-0 btn-download">Download CV</button>
+          </a>
+      </div>
+  </div>
+</nav>

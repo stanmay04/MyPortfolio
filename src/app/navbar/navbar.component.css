@@ -27,3 +27,24 @@
     border: 1px solid #74c69d;
     color: #74c69d;
   }
+  @media (max-width: 992px) {
+    .nav-item {
+        flex-basis: 50%; /* Display 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        flex-basis: 100%; /* Display 1 item per row on small screens */
+    }
+}
+.navbar-nav {
+  margin: auto;
+}
+
+/* Adjust margin and padding for "Let's Talk" and "Download CV" buttons */
+.btn-color,
+.btn-download {
+  margin-top: 0;
+  margin-bottom: 0;
+}
