@@ -23,3 +23,11 @@
     height: 100% !important;
     background-color: #cad2c5 !important;
 }
+@media (max-width: 800px) {
+    .card {
+        width: 45vw;
+    }
+    .container{
+        justify-content: center;
+    }
+}
