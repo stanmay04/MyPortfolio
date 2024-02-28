@@ -1,4 +1,4 @@
-<div class="container1">
+<div  *ngIf="!isLoaded" class="container1">
     <h1  [@fadeInOut]="!isLoaded ? 'visible' : 'hidden'" class="para" >Hi ! <br>Welcome to my portfolio</h1> <br>
     <!-- <h2 *ngIf="!isLoaded" [@fadeInOut] class="para">Welcome to my portfolio</h2> -->
 </div>

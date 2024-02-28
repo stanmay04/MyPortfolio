@@ -31,3 +31,19 @@
       margin-left: 0vw;
       }
 }
+.icons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+}
+.bi-linkedin{
+  font-size: xx-large;
+    color: #74c69d;
+}
+.bi-instagram{
+  font-size: xx-large;
+      color: #b407b4;
+}
+.bi-github{
+  font-size: xx-large;
+}
