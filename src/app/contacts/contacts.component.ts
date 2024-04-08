@@ -40,6 +40,8 @@ export class ContactsComponent {
       this.message = '';
         this.phone  = '';
     });
+    alert("Registered Successfully");
+    
   }
 
 }
