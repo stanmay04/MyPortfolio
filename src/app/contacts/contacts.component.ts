@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contacts',
@@ -17,7 +17,12 @@ export class ContactsComponent {
   {
    
   }
-
+form = new FormGroup({
+  name:new FormControl('',Validators.required),
+  email:new FormControl('',Validators.required),
+  message:new FormControl('',Validators.required),
+  phone:new FormControl('',Validators.required),
+})
 
   register()
   {

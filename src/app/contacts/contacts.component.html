@@ -3,27 +3,24 @@
   <div class="card">
      
    
-  <form>
-      <div class="form-group">
-        <input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}"  class="form-control" id="name" placeholder="Enter Name">
-   
+  <form [formGroup]="form" (ngSubmit)="register()">
+      <div  class="form-group">
+        <input type="text" formControlName="name" class="form-control" id="name" placeholder="Enter Name">
       </div>
    
       <div class="form-group">
-          <input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"  class="form-control" id="email" placeholder="Enter email">
-    
+          <input type="text" formControlName="email" class="form-control" id="email" placeholder="Enter email">
         </div>
     
         <div class="form-group">
-          <input type="text" [(ngModel)]="phone" [ngModelOptions]="{standalone: true}" class="form-control" id="phone" placeholder="Enter Mobile">
-    
+          <input type="text" formControlName="phone" class="form-control" id="phone" placeholder="Enter Mobile">
         </div>
         <div class="form-group">
-          <input type="text" [(ngModel)]="message" [ngModelOptions]="{standalone: true}" class="form-control" id="message" placeholder="Enter message">
-    
+          <input type="text" formControlName="message" class="form-control" id="message" placeholder="Enter message">
         </div>
+        <!-- <span *ngIf="form.invalid && form.touched" class="error">All fields are mandatory</span> -->
       
-      <button type="submit" class="btn btn-primary mt-4" (click)="register()" >Submit</button>
+      <button type="submit" class="btn btn-primary mt-4" [disabled]="form.invalid" >Submit</button>
     </form>
   </div>
   <div>
